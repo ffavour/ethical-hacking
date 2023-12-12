@@ -1,0 +1,39 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    flex-direction: column; /* Aggiunto per centrare anche verticalmente */
+    background-color: #1e1f22;
+    font-family: Carlito, sans-serif;
+}
+
+h1 {
+    margin-top: 0; /* Rimuove il margine superiore predefinito dell'h1 */
+    align-self: flex-start; /* Posiziona l'h1 all'inizio del contenitore flessibile */
+}
+
+#form-container {
+    text-align: center;
+}
+
+input,
+button {
+    padding: 1em; /* Utilizzo di em per il padding */
+    margin-bottom: 1em; /* Utilizzo di em per il margin-bottom */
+    font-size: 1em; /* Utilizzo di em per la dimensione del testo */
+}
+
+
+.button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 0.2em; /* Utilizzo di em per il border-radius */
+    cursor: pointer;
+}
+
+h2{
+    color: white;
+}
